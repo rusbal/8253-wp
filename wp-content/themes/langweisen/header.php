@@ -1,4 +1,8 @@
-<!doctype html>
+<?php
+
+use Rsu\Settings\Option;
+
+?><!doctype html>
 <html lang="de">
 <head>
   <title><?php bloginfo('name'); ?> | <?php is_front_page() ? bloginfo('description') : wp_title('|', true, 'right'); ?></title>
@@ -15,7 +19,7 @@
 <div id="outWrap">
     <div id="wrap">
         <section id="header">
-            <div id="logo"><a href="/eigentumswohnung">Rhytreat</a></div>
+            <div id="logo"><a href="/eigentumswohnung"><?= Option::get_image('header_logo') ?></a></div>
             <nav id="headerNav">
                 <ul>
                     <?php
