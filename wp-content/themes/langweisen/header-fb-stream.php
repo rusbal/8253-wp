@@ -49,5 +49,5 @@ use Rsu\Settings\Option;
 <body> 
 <div class="content-fb-stream">
     <div id="banner">
-       <a href="/eigentumswohnung"><?= Option::get_image('header_banner', 'head-banner') ?></a>
+       <a href="<?= get_field('header_link') ?>"><?= Option::get_image('header_banner', 'head-banner') ?></a>
     </div>
