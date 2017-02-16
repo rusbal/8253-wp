@@ -3,8 +3,8 @@ Contributors: Daniele Angileri
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WLXKFHGZ9WWGN
 Tags: facebook, facebook stream, facebook feed, facebook page, facebook wall, facebook posts, custom facebook feed, custom facebook stream, custom facebook wall, custom facebook posts, social media, social stream, responsive, mobile
 Requires at least: 3.0.1
-Tested up to: 4.5.2
-Stable tag: 1.6.2
+Tested up to: 4.7
+Stable tag: 1.6.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -108,6 +108,18 @@ I did not use Flash on purpose. Many mobile phones do not support it and it will
 6. Example Social Stream ("fbss_simple" theme)
 
 == Changelog ==
+= 1.6.5 =
+* Bugfix
+    * Patch default message template (thx @dbrosemer)
+
+= 1.6.4 =
+* Enhancements
+    * Add API request params to improve caching behaviour
+
+= 1.6.3 =
+* Enhancements
+    * Improve performance by usage of CDN for API calls
+
 = 1.6.2 =
 * Enhancements
 	* Changed URL of Facebook service in order to use load balancing

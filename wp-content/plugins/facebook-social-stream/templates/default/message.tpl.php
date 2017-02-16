@@ -173,9 +173,9 @@ require_once(plugin_dir_path(__FILE__).'/../../lib/FBSS_TemplateStringUtils.php'
 								echo FBSS_TemplateStringUtils::createMessageHTML($view_data['video_description']);
 							?>
 						</div>
+						<?php endif; ?>
 					</div>
 					<div class="clearer"></div>
-					<?php endif; ?>
 				</div>
 				<?php endif; ?>
 			</div>

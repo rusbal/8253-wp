@@ -6,7 +6,7 @@ require_once('FBSS_Registry.php');
 
 class FBSS_ExtensionManager {
 
-	const EXTENSION_SERVICE = 'http://fbss-api.angileri.de/rest/fbss-extensions';
+	const EXTENSION_SERVICE = 'http://cdn-fbss-api.angileri.de/rest/fbss-extensions';
 	const CACHING = false;
 	
 	private $logger;
